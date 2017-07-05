@@ -48,7 +48,7 @@ namespace ArraysPractice
             ////dataType[] nameOfArray = new dataType[#ofElements];
             //int[] numberOfSeats = new int[21];
             //string[] studentsInClass = new string[21]; 
-            
+
             ////nameOfArray[index] = Element;
             //studentsInClass[0] = "Jordan";
 
@@ -68,6 +68,43 @@ namespace ArraysPractice
             ////and convert it into a string
             //string firstIndex = ageOfStudentsInClass[0].ToString();
 
+            //string[] restaurantsInMall = { "Subway", "Saki", "Dunkin Donuts", "Red Lobster", "Chick Fil-A" };
+            //Console.WriteLine(restaurantsInMall.Length);
+
+            ////For review
+            ////Declare and not initialize
+            //int[] myIntArray;
+            ////Declare an array when I know the elements
+            //char[] lettersInFirstName = { 'D', 'a', 'n', 'i', 'e', 'l' };
+            ////Declare and initialize an array when I DON'T know the elements
+            //string[] variableName = new string[42];
+
+            //To practice using .Length, create a char array of the letters in your middle name
+            //...and print the number of char's to the Console.
+            //char[] middleNameLetters = { 'p', 'a', 't', 'r', 'i', 'c', 'k' };
+            //Console.WriteLine(middleNameLetters.Length);
+
+            //Declare and initialize a string array.
+            //Using the Length property, print the SECOND TO LAST element in the array
+            //string[] myColors = { "red", "orange", "yellow", "green", "blue" };
+            //int numOfColors = myColors.Length;
+            //Console.WriteLine(myColors[myColors.Length - 2]);
+
+            //IndexOf is a method used to seatch an array for a specified value and returns
+            //the index position of the first matching value found.
+            //int[] bestYearsEver = { 1985, 1999, 1991, 2000, 1985 };
+            //Console.WriteLine(Array.IndexOf(bestYearsEver, 1985));
+            //    //LastIndexOf is a method used to search an array for a specified value and returns
+            //the index position of the LAST matching value found.
+            //Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985)); 
+
+            //Reverse Method
+            int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            Console.WriteLine(palindromeNumbers[0]);
+            Console.WriteLine(palindromeNumbers[2]);
+            Array.Reverse(palindromeNumbers);
+            Console.WriteLine(palindromeNumbers[0]);
+            Console.WriteLine(palindromeNumbers[2]);
         }
     }
 }
