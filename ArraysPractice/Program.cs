@@ -45,8 +45,28 @@ namespace ArraysPractice
 
             //string[] myGpas = { "3.5", "3.9","3.8"};
 
+            ////dataType[] nameOfArray = new dataType[#ofElements];
+            //int[] numberOfSeats = new int[21];
+            //string[] studentsInClass = new string[21]; 
+            
+            ////nameOfArray[index] = Element;
+            //studentsInClass[0] = "Jordan";
 
+            //Console.WriteLine("Please enter in the name of the next student.");
+            //studentsInClass[1] = Console.ReadLine();
+            //Console.WriteLine("The student in the second seat is {0}.", studentsInClass[1]);
 
+            ////Ask for user input
+            //Console.WriteLine("Please enter the age of the person in the first seat.");
+            ////Create a new int array with 21 spots and call it ageOfStudentsInClass
+            //int[] ageOfStudentsInClass = new int[21];
+            ////Assign the value of the int at the 0 index of ageOfStudentsInClass to...
+            ////...the user's input converted into an int
+            //ageOfStudentsInClass[0] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("The age of the student in the first seat is " + ageOfStudentsInClass[0]);
+            ////Create a new string variable and set it equal to the int at the index of 0...
+            ////and convert it into a string
+            //string firstIndex = ageOfStudentsInClass[0].ToString();
 
         }
     }
