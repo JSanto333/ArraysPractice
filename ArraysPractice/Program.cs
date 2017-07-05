@@ -90,7 +90,7 @@ namespace ArraysPractice
             //int numOfColors = myColors.Length;
             //Console.WriteLine(myColors[myColors.Length - 2]);
 
-            //IndexOf is a method used to seatch an array for a specified value and returns
+            //IndexOf is a method used to search an array for a specified value and returns
             //the index position of the first matching value found.
             //int[] bestYearsEver = { 1985, 1999, 1991, 2000, 1985 };
             //Console.WriteLine(Array.IndexOf(bestYearsEver, 1985));
@@ -99,12 +99,28 @@ namespace ArraysPractice
             //Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985)); 
 
             //Reverse Method
-            int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
-            Console.WriteLine(palindromeNumbers[0]);
-            Console.WriteLine(palindromeNumbers[2]);
-            Array.Reverse(palindromeNumbers);
-            Console.WriteLine(palindromeNumbers[0]);
-            Console.WriteLine(palindromeNumbers[2]);
+            //int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            //Console.WriteLine(palindromeNumbers[0]);
+            //Console.WriteLine(palindromeNumbers[2]);
+            //Array.Reverse(palindromeNumbers);
+            //Console.WriteLine(palindromeNumbers[0]);
+            //Console.WriteLine(palindromeNumbers[2]);
+
+            //Sort
+            //Will sort numbers in an array from lowest to highest
+            //Will sort char's and strings in alphabetical order from A-Z
+            //string[] powerRangers = { "Green", "Yellow", "Pink", "Blue", "Red", "Black" };
+            //Console.WriteLine(powerRangers[0]);
+            //Array.Sort(powerRangers);
+            //Console.WriteLine(powerRangers[0]);
+
+            //string[] rangersNames = { "Jason", "Kimberly", "Zack", "Billy", "Trini", "Tommy" };
+            //Console.WriteLine(rangersNames[3]);
+
+            //CHECK THIS AND DO FOR HOMEWORK!!!!
+            int[] luckyNumbers
+
+
         }
     }
 }
